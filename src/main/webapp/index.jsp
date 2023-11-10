@@ -5,7 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home Landing Page</title>
     <style>
-      /* Your existing styles here */
+      body {
+        font-family: "Arial", sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+      }
+
+      header {
+        background-color: #333;
+        padding: 1em;
+        text-align: center;
+        color: white;
+      }
+
+      section {
+        padding: 2em;
+        text-align: center;
+      }
+
+      footer {
+        background-color: #333;
+        padding: 1em;
+        text-align: center;
+        color: white;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+      }
     </style>
   </head>
   <body>
